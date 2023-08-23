@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import heroImg from "../assets/herobg.jpg"
+import Destination from "../components/Destination";
 function Home(){
 return(
     <>
@@ -13,7 +14,7 @@ return(
     buttonText="Rencana Perjalanan"
     url="/"
     btnClass="show"/>
-    
+    <Destination />
     </>
 )
 }

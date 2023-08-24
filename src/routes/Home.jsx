@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import heroImg from "../assets/herobg.jpg"
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
+import Footer from "../components/Footer";
 function Home(){
 return(
     <>
@@ -17,6 +18,7 @@ return(
     btnClass="show"/>
     <Destination />
     <Trip />
+    <Footer />
     </>
 )
 }
